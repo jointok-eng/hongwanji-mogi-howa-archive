@@ -30,6 +30,10 @@ howa-archive/
 
 File naming: `YYYY-MM-{ja|pt|en|es}.md` (e.g. `2026-08-pt.md`). Duplicate months use a suffix: `2025-03-2-ja.md`.
 
+## Medium / Substack mirror (pt + en)
+
+Ready-to-publish mirror posts for [Medium](https://medium.com) and [Substack](https://substack.com) are in [`mirror/`](mirror/README.md) (78 articles). Each ends with *Originally published at https://hongwanjimogi.org.br/...*
+
 ## Citation
 
 > Inoue, Josuke (釋 穣信). *[Sermon title]*. Honpa Hongwanji Mogi das Cruzes, YYYY-MM. https://hongwanjimogi.org.br/howa.php
