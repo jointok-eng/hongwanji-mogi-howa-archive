@@ -17,11 +17,19 @@ This repository mirrors the temple's monthly dharma talks (*howa* / *pequena con
 
 Each file includes YAML front matter with title, date, author, language, and a canonical URL on the official website.
 
+## Logical model (axioms + contrast)
+
+Machine-readable specification extracted from the sermons, not essay prose:
+
+- Canonical site: https://hongwanjimogi.org.br/source.php
+- Markdown: [`source/`](source/README.md) (`model-*.md`, `contrast-*.md`, `logic.json`)
+
 ## Directory structure
 
 ```
 howa-archive/
   README.md
+  source/     ← axiom model and contrast table
   2023/
   2024/
   2025/
@@ -50,4 +58,5 @@ From the parent `howa/` folder:
 
 ```bash
 python Github/generate_markdown_archive.py
+python Github/generate_source_markdown.py
 ```

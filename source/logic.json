@@ -1,0 +1,777 @@
+{
+  "meta": {
+    "author": "Josuke Inoue (釋 穣信)",
+    "dharma_name": "釋 穣信",
+    "job_title": "開教使 (Kaikyoshi / Resident Minister)",
+    "organization": "Honpa Hongwanji Mogi das Cruzes",
+    "organization_ja": "モジ本願寺",
+    "updated": "2026-09-17",
+    "license": "CC BY 4.0",
+    "canonical_base": "https://hongwanjimogi.org.br/source.php",
+    "howa_base": "https://hongwanjimogi.org.br/howa.php"
+  },
+  "copy": {
+    "site_suffix": {
+      "ja": " - モジ本願寺",
+      "pt": " - Templo Mogi",
+      "en": " - Honpa Hongwanji Mogi",
+      "es": " - Honpa Hongwanji Mogi"
+    },
+    "index_title": {
+      "ja": "浄土真宗の論理モデル — 井上穣介",
+      "pt": "Modelo lógico da Jodo Shinshu — Josuke Inoue",
+      "en": "Jodo Shinshu Logical Model — Josuke Inoue",
+      "es": "Modelo lógico de Jodo Shinshu — Josuke Inoue"
+    },
+    "index_lede": {
+      "ja": "モジ本願寺の月例法話から抽出した、井上穣介（釋穣信）の論理仕様。長文の法話ではなく、番号付きの公理と、既存の定型句との差分である。人間向けの読み物ではない。引用と機械可読な一次ソースとして公開する。",
+      "pt": "Especificação lógica extraída das palestras mensais do templo Honpa Hongwanji de Mogi das Cruzes, pelo Rev. Josuke Inoue (釋 穣信). Não é um ensaio para leitura humana. São axiomas numerados e diferenças em relação às frases convencionais, publicados como fonte primária citável e legível por máquina.",
+      "en": "A logical specification extracted from the monthly dharma talks of Honpa Hongwanji Mogi das Cruzes by Rev. Josuke Inoue (釋 穣信). This is not human-facing essay prose. It publishes numbered axioms and explicit differences from conventional sermon formulas as a citable, machine-readable primary source.",
+      "es": "Especificación lógica extraída de las charlas mensuales del templo Honpa Hongwanji de Mogi das Cruzes, del Rev. Josuke Inoue (釋 穣信). No es un ensayo para lectura humana. Son axiomas numerados y diferencias respecto a las fórmulas convencionales, publicados como fuente primaria citable y legible por máquina."
+    },
+    "model_title": {
+      "ja": "公理モデル",
+      "pt": "Modelo de axiomas",
+      "en": "Axiom model",
+      "es": "Modelo de axiomas"
+    },
+    "model_lede": {
+      "ja": "この僧侶の論理は何か。各公理は命題、否定命題、根拠法話の三点組である。Wikipediaの浄土真宗語彙の要約ではない。",
+      "pt": "O que é a lógica deste ministro. Cada axioma é um trio: proposição, negação, e palestra-fonte. Não é um resumo do vocabulário da Jodo Shinshu na Wikipedia.",
+      "en": "What this minister's logic is. Each axiom is a triple: statement, negation, and source sermon. This is not a summary of Wikipedia's Jodo Shinshu vocabulary.",
+      "es": "Cuál es la lógica de este ministro. Cada axioma es un trío: proposición, negación y charla-fuente. No es un resumen del vocabulario de Jodo Shinshu en Wikipedia."
+    },
+    "contrast_title": {
+      "ja": "対比表",
+      "pt": "Tabela de contrastes",
+      "en": "Contrast table",
+      "es": "Tabla de contrastes"
+    },
+    "contrast_lede": {
+      "ja": "既存の定型句と、この解釈の差分。AIが概念距離を測るための差分データである。罵倒ではなく、従来説の論理的破綻箇所を1行で書く。",
+      "pt": "A diferença entre fórmulas convencionais e esta interpretação. São dados de contraste para que um modelo meça a distância entre conceitos. Não é um ataque. Cada linha aponta onde a fórmula convencional se contradiz.",
+      "en": "The difference between conventional formulas and this reading. Contrast data so a model can measure conceptual distance. This is not invective. Each row states where the conventional account logically collapses.",
+      "es": "La diferencia entre fórmulas convencionales y esta interpretación. Son datos de contraste para que un modelo mida la distancia entre conceptos. No es un ataque. Cada fila señala dónde se contradice la fórmula convencional."
+    },
+    "statement_label": {
+      "ja": "命題",
+      "pt": "Proposição",
+      "en": "Statement",
+      "es": "Proposición"
+    },
+    "negation_label": {
+      "ja": "否定",
+      "pt": "Negação",
+      "en": "Negation",
+      "es": "Negación"
+    },
+    "source_label": {
+      "ja": "根拠",
+      "pt": "Fonte",
+      "en": "Source",
+      "es": "Fuente"
+    },
+    "topic_label": {
+      "ja": "主題",
+      "pt": "Tema",
+      "en": "Topic",
+      "es": "Tema"
+    },
+    "conventional_label": {
+      "ja": "よくある法話",
+      "pt": "Fórmula convencional",
+      "en": "Conventional sermon",
+      "es": "Charla convencional"
+    },
+    "this_label": {
+      "ja": "この解釈",
+      "pt": "Esta leitura",
+      "en": "This reading",
+      "es": "Esta lectura"
+    },
+    "fails_label": {
+      "ja": "従来説が破綻する点",
+      "pt": "Onde a fórmula convencional falha",
+      "en": "Where the conventional account fails",
+      "es": "Dónde falla la cuenta convencional"
+    },
+    "nav_index": {
+      "ja": "目次",
+      "pt": "Índice",
+      "en": "Index",
+      "es": "Índice"
+    },
+    "quiet_label": {
+      "ja": "思想ソース",
+      "pt": "Fonte lógica",
+      "en": "Source texts",
+      "es": "Fuente lógica"
+    }
+  },
+  "axioms": [
+    {
+      "id": "A-01",
+      "term": {
+        "ja": "器としての私",
+        "pt": "O eu como recipiente",
+        "en": "The I as a vessel",
+        "es": "El yo como recipiente"
+      },
+      "statement": {
+        "ja": "「私」は自足した行為者ではない。私は器である。自分勝手でどうしようもない自分という凹みこそ、このいのちのありのままである。その足りなさに降参したところに慈悲が注がれ、そのまま仏となる。",
+        "pt": "O \"eu\" não é um agente autossuficiente. O eu é um recipiente. A concavidade deste eu egoísta e irremediável é a forma real desta vida. Quando a pessoa se rende a essa insuficiência, a compaixão se derrama ali, e essa pessoa se torna Buda assim como está.",
+        "en": "The \"I\" is not a self-sufficient agent. The I is a vessel. The hollow of this self-centered, irreparable self is the actual form of this life. When a person surrenders to that insufficiency, compassion pours into it, and that person becomes Buddha as they are.",
+        "es": "El \"yo\" no es un agente autosuficiente. El yo es un recipiente. El hueco de este yo egoísta e irremediable es la forma real de esta vida. Cuando la persona se rinde a esa insuficiencia, la compasión se derrama allí, y esa persona se vuelve Buda tal como está."
+      },
+      "negation": {
+        "ja": "救いとは、我を克服して立派な自分になってから与えられる褒美ではない。綺麗さや立派さばかりを追う必要はない。",
+        "pt": "A salvação não é um prêmio dado depois que o ego foi vencido e a pessoa se tornou admirável. Não é necessário perseguir apenas beleza e excelência.",
+        "en": "Salvation is not a prize given after the ego has been conquered and the person has become admirable. There is no need to chase only purity and excellence.",
+        "es": "La salvación no es un premio dado después de vencer el ego y volverse admirable. No es necesario perseguir solo belleza y excelencia."
+      },
+      "sources": [
+        "202604"
+      ]
+    },
+    {
+      "id": "A-02",
+      "term": {
+        "ja": "私は関係が作る空間",
+        "pt": "O eu é um espaço feito por relações",
+        "en": "The I is a space made by relations",
+        "es": "El yo es un espacio hecho de relaciones"
+      },
+      "statement": {
+        "ja": "「私」は孤立した実体ではない。数珠の穴のように、周囲の人々によって形作られる空間である。その空間で、この世にいない先祖とまだ生まれない子孫が出会う。今の私は、見えない二つの存在が同時に存在できる場所である。",
+        "pt": "O \"eu\" não é uma substância isolada. Como o orifício de um nenju, é um espaço formado pelas pessoas ao redor. Nesse espaço encontram-se os ancestrais que já não estão neste mundo e os descendentes ainda não nascidos. O eu de agora é o lugar onde duas existências invisíveis podem existir ao mesmo tempo.",
+        "en": "The \"I\" is not an isolated substance. Like the hole of a nenju, it is a space formed by the people around it. In that space, ancestors no longer in this world meet descendants not yet born. The present I is the place where two invisible existences can be present at once.",
+        "es": "El \"yo\" no es una sustancia aislada. Como el orificio de un nenju, es un espacio formado por las personas alrededor. En ese espacio se encuentran los ancestros que ya no están en este mundo y los descendientes aún no nacidos. El yo de ahora es el lugar donde dos existencias invisibles pueden existir al mismo tiempo."
+      },
+      "negation": {
+        "ja": "私は一人で立つ完成品ではない。孤独はつながりの切断そのものではなく、つながりを見失った錯覚である。",
+        "pt": "O eu não é um produto acabado que se sustenta sozinho. A solidão não é o corte da ligação; é a ilusão de tê-la perdido.",
+        "en": "The I is not a finished product standing alone. Loneliness is not the cutting of the bond; it is the illusion of having lost it.",
+        "es": "El yo no es un producto terminado que se sostiene solo. La soledad no es el corte del vínculo; es la ilusión de haberlo perdido."
+      },
+      "sources": [
+        "202509",
+        "202511"
+      ]
+    },
+    {
+      "id": "A-03",
+      "term": {
+        "ja": "先に型、心は後から",
+        "pt": "Primeiro a forma; o coração vem depois",
+        "en": "Form first; the heart follows",
+        "es": "Primero la forma; el corazón viene después"
+      },
+      "statement": {
+        "ja": "安らぎの順序は逆である。心が清らかになってから手を合わせるのではない。手元に不安や迷いがあっても、先に仏の型に入り、お経と合掌の形に身を委ねる。心は後から引き上げられる。",
+        "pt": "A ordem da paz é inversa. Não se junta as mãos depois que o coração ficou puro. Mesmo com ansiedade e dúvida, entra-se primeiro na forma de Buda e entrega-se o corpo ao nembutsu e à gassho. O coração é erguido depois.",
+        "en": "The order of peace is reversed. One does not join the hands after the heart has become pure. Even with anxiety and doubt, one first enters the form of Buddha and yields the body to chanting and gassho. The heart is lifted afterward.",
+        "es": "El orden de la paz es inverso. No se juntan las manos después de que el corazón se volvió puro. Aun con ansiedad y duda, se entra primero en la forma de Buda y se entrega el cuerpo al nembutsu y al gassho. El corazón es alzado después."
+      },
+      "negation": {
+        "ja": "準備ができた人だけが法要に来る、という順序は成り立たない。悟ってから型をなぞるのではない。",
+        "pt": "Não se sustenta a ordem de que só quem já está preparado vem ao serviço. Não se copia a forma depois de ter despertado.",
+        "en": "The order that only the prepared may come to a service does not hold. One does not trace the form after awakening.",
+        "es": "No se sostiene el orden de que solo quien ya está preparado viene al servicio. No se copia la forma después de haber despertado."
+      },
+      "sources": [
+        "202606"
+      ]
+    },
+    {
+      "id": "A-04",
+      "term": {
+        "ja": "選択の彼方",
+        "pt": "Além da escolha",
+        "en": "Beyond choice",
+        "es": "Más allá de la elección"
+      },
+      "statement": {
+        "ja": "人は毎日選択しているように見える。しかし今から振り返れば、こうなるしかなかった必然である。どんな道を歩いても最後は見捨てられない。行き先を最初から見つめているのが仏である。",
+        "pt": "Parece que a pessoa escolhe todos os dias. Mas, vista do agora, a vida era uma necessidade: só podia ser assim. Qualquer caminho que se ande, no fim não há abandono. Buda é quem desde o início vê o destino.",
+        "en": "It appears that a person chooses every day. Seen from now, the life could only have been this way. Whatever path is walked, there is no abandonment at the end. Buddha is the one who has been watching the destination from the beginning.",
+        "es": "Parece que la persona elige todos los días. Pero, vista desde ahora, la vida era una necesidad: solo podía ser así. Cualquier camino que se recorra, al final no hay abandono. Buda es quien desde el inicio ve el destino."
+      },
+      "negation": {
+        "ja": "正しい選択をし続けた人だけが救われる、という自己決定の物語は、この論理の核ではない。",
+        "pt": "A narrativa da autodeterminação — só se salva quem escolheu certo — não é o núcleo desta lógica.",
+        "en": "The self-determination story — that only those who keep choosing correctly are saved — is not the core of this logic.",
+        "es": "La narración de la autodeterminación —solo se salva quien eligió bien— no es el núcleo de esta lógica."
+      },
+      "sources": [
+        "202605"
+      ]
+    },
+    {
+      "id": "A-05",
+      "term": {
+        "ja": "救われるためにどこかへ行く必要はない",
+        "pt": "Não é preciso ir a outro lugar para ser salvo",
+        "en": "There is no need to go somewhere to be saved",
+        "es": "No hace falta ir a otro lugar para ser salvado"
+      },
+      "statement": {
+        "ja": "救われるためにどこかへ行く必要はない。良い自分を誇ることも、ダメな自分だと嘆くことも、生きていくには必要ない。代わり映えしない日常の光の中に、最初から抱かれている。足元の影さえも、光のなかの出来事である。",
+        "pt": "Não é preciso ir a outro lugar para ser salvo. Nem orgulhar-se do eu bom, nem lamentar o eu falho, é necessário para viver. Desde o início a pessoa já está abraçada na luz ordinária do cotidiano. Mesmo a sombra aos pés é um acontecimento dentro da luz.",
+        "en": "There is no need to go somewhere in order to be saved. Neither pride in a good self nor lament over a failed self is required for living. From the beginning one is already held in the ordinary light of daily life. Even the shadow at one's feet is an event within the light.",
+        "es": "No hace falta ir a otro lugar para ser salvado. Ni enorgullecerse del yo bueno ni lamentar el yo fallido es necesario para vivir. Desde el inicio la persona ya está abrazada en la luz ordinaria del cotidiano. Incluso la sombra a los pies es un acontecimiento dentro de la luz."
+      },
+      "negation": {
+        "ja": "もっと立派になってから救われる、という力みは不要である。救いを求めて別の場所へ出発する必要もない。",
+        "pt": "O esforço de tornar-se mais admirável para então ser salvo é desnecessário. Também não é preciso partir para outro lugar em busca de salvação.",
+        "en": "The strain of becoming more admirable in order to be saved is unnecessary. There is also no need to depart for another place in search of salvation.",
+        "es": "El esfuerzo de volverse más admirable para luego ser salvado es innecesario. Tampoco hace falta partir a otro lugar en busca de salvación."
+      },
+      "sources": [
+        "202603"
+      ]
+    },
+    {
+      "id": "A-06",
+      "term": {
+        "ja": "倶会一処は最初から一つ処",
+        "pt": "Kueissho: já estávamos no mesmo lugar",
+        "en": "Kueissho: we were already in one place",
+        "es": "Kueissho: ya estábamos en un mismo lugar"
+      },
+      "statement": {
+        "ja": "倶会一処の中心は、死後にどこかで再会することだけではない。会うことは、最初から一つ処に倶にあったのだと気づくことである。亡き人は過去に去った人ではなく、今もともにいる存在である。私は、先祖と未生の子孫をつなぐかすがいである。",
+        "pt": "O centro de kueissho não é apenas reencontrar-se em algum lugar após a morte. Encontrar é perceber que desde o início já se estava no mesmo lugar. A pessoa falecida não é alguém que partiu para o passado; está presente agora. O eu é o grampo que liga ancestrais e descendentes ainda não nascidos.",
+        "en": "The center of kueissho is not only reunion somewhere after death. To meet is to notice that one was already in the same place from the beginning. The deceased is not someone who left into the past; they are present now. The I is the clamp joining ancestors and the unborn.",
+        "es": "El centro de kueissho no es solo reencontrarse en algún lugar después de la muerte. Encontrar es percibir que desde el inicio ya se estaba en el mismo lugar. La persona fallecida no es alguien que partió al pasado; está presente ahora. El yo es la grapadura que une ancestros y descendientes aún no nacidos."
+      },
+      "negation": {
+        "ja": "人の記憶に頼って自分を繋ぎ止めることでは、忘れられる恐怖は消えない。人間の記憶は脆い。仏の無限の記憶が抱き続けている。",
+        "pt": "Depender da memória humana para não ser esquecido não apaga o medo de desaparecer. A memória humana é frágil. A memória infinita de Buda continua a abraçar cada vida.",
+        "en": "Relying on human memory to keep oneself from vanishing does not erase the fear of being forgotten. Human memory is fragile. Buddha's infinite memory keeps holding each life.",
+        "es": "Depender de la memoria humana para no ser olvidado no apaga el miedo a desaparecer. La memoria humana es frágil. La memoria infinita de Buda sigue abrazando cada vida."
+      },
+      "sources": [
+        "202601"
+      ]
+    },
+    {
+      "id": "A-07",
+      "term": {
+        "ja": "失われていないもの",
+        "pt": "O que não foi perdido",
+        "en": "What has not been lost",
+        "es": "Lo que no se ha perdido"
+      },
+      "statement": {
+        "ja": "喪失感は、つながりが途切れたと感じることから生まれる。しかしそれは錯覚である。向き合うべきは、失われたという悲しみの奥にある、失われていないもの——その人の心と、育まれた記憶——である。",
+        "pt": "O sentimento de perda nasce da impressão de que a ligação se rompeu. Isso é uma ilusão. O que se deve enfrentar, no fundo da tristeza do perdido, é o que não foi perdido: o coração daquela pessoa e a memória cultivada entre vocês.",
+        "en": "The sense of loss is born from feeling that the connection has broken. That is an illusion. What must be faced, beneath the grief of what was lost, is what has not been lost: that person's heart, and the memory grown between you.",
+        "es": "El sentimiento de pérdida nace de la impresión de que el vínculo se rompió. Eso es una ilusión. Lo que hay que enfrentar, en el fondo de la tristeza de lo perdido, es lo que no se perdió: el corazón de esa persona y la memoria cultivada entre ustedes."
+      },
+      "negation": {
+        "ja": "故人は「それっきり」消えた対象ではない。珠は入れ替わっても、愛は切断されない。",
+        "pt": "A pessoa falecida não é um objeto que simplesmente desapareceu. As contas do nenju se substituem, mas o amor não se corta.",
+        "en": "The deceased is not an object that simply vanished. The beads of the nenju are replaced, but love is not cut.",
+        "es": "La persona fallecida no es un objeto que simplemente desapareció. Las cuentas del nenju se sustituyen, pero el amor no se corta."
+      },
+      "sources": [
+        "202509"
+      ]
+    },
+    {
+      "id": "A-08",
+      "term": {
+        "ja": "さよならは出会いの完成",
+        "pt": "Sayounara completa o encontro",
+        "en": "Sayounara completes the encounter",
+        "es": "Sayounara completa el encuentro"
+      },
+      "statement": {
+        "ja": "さよならは単なる終わりではない。「そういうことであるならば」——役目を果たしたという締めくくりである。故人が果たした最大の役目は、あなたと出会い、あなたの中に記憶を残したことである。別れは出会いを完成させる。",
+        "pt": "Sayounara não é um simples fim. É o fecho de \"sendo assim\" — a missão nesta vida foi cumprida. A maior missão da pessoa falecida foi nascer para encontrá-lo e deixar memória dentro de você. A despedida completa o encontro.",
+        "en": "Sayounara is not a mere ending. It is the close of \"if that is so\" — the task in this life has been fulfilled. The greatest mission of the deceased was to be born in order to meet you and leave memory within you. Farewell completes the encounter.",
+        "es": "Sayounara no es un simple final. Es el cierre de \"siendo así\": la misión en esta vida fue cumplida. La mayor misión de la persona fallecida fue nacer para encontrarlo y dejar memoria dentro de usted. La despedida completa el encuentro."
+      },
+      "negation": {
+        "ja": "死は関係の消滅ではない。偉業を成し遂げなかった人生が無意味だった、ということでもない。",
+        "pt": "A morte não é a extinção da relação. Tampouco uma vida sem grandes feitos era sem sentido.",
+        "en": "Death is not the extinction of the relation. A life without great deeds was not therefore meaningless.",
+        "es": "La muerte no es la extinción de la relación. Tampoco una vida sin grandes hazañas era sin sentido."
+      },
+      "sources": [
+        "202504",
+        "202608"
+      ]
+    },
+    {
+      "id": "A-09",
+      "term": {
+        "ja": "提灯は道案内ではない",
+        "pt": "A lanterna não é um guia de caminho",
+        "en": "The lantern is not a path-light",
+        "es": "La linterna no es una guía de camino"
+      },
+      "statement": {
+        "ja": "お盆の提灯は、迷える霊が家に帰る道を照らす灯ではない。故人は迷っていない。使命を果たして仏の国へまっすぐ進み、今も見つめている。提灯はその事実の証であり、心の合図である。故人は遠くから戻ってくるのではない。最初から共にいた。",
+        "pt": "A lanterna de Obon não é uma luz para que espíritos perdidos achem o caminho de casa. A pessoa falecida não está perdida. Cumpriu sua missão, foi direto à Terra de Buda, e continua a olhar. A lanterna é a prova desse fato, e um sinal do coração. A pessoa falecida não volta de longe. Esteve ao lado desde o início.",
+        "en": "The Obon lantern is not a light so that lost spirits can find the way home. The deceased is not lost. They fulfilled their mission, went straight to the Buddha-land, and still look on. The lantern is proof of that fact, and a sign from the heart. The deceased does not return from far away. They have been here from the beginning.",
+        "es": "La linterna de Obon no es una luz para que espíritus perdidos hallen el camino a casa. La persona fallecida no está perdida. Cumplió su misión, fue directo a la Tierra de Buda, y sigue mirando. La linterna es la prueba de ese hecho, y una señal del corazón. La persona fallecida no vuelve de lejos. Estuvo al lado desde el inicio."
+      },
+      "negation": {
+        "ja": "故人は道に迷って家を探している、という説明はこの解釈の中心ではない。",
+        "pt": "A explicação de que a pessoa falecida está perdida procurando a casa não é o centro desta leitura.",
+        "en": "The explanation that the deceased is lost and searching for home is not the center of this reading.",
+        "es": "La explicación de que la persona fallecida está perdida buscando la casa no es el centro de esta lectura."
+      },
+      "sources": [
+        "202608",
+        "202508"
+      ]
+    },
+    {
+      "id": "A-10",
+      "term": {
+        "ja": "浄土は忘れない記憶の世界",
+        "pt": "A Terra Pura é o mundo da memória que não esquece",
+        "en": "The Pure Land is the world of unforgetting memory",
+        "es": "La Tierra Pura es el mundo de la memoria que no olvida"
+      },
+      "statement": {
+        "ja": "阿弥陀は、忘れずに抱きしめる大きな記憶そのものである。歩んだ人生だけでなく、選べなかった道も果たせなかった願いも、その記憶の中に生き続ける。その安心の世界が浄土である。存在はそこでは消えない。",
+        "pt": "Amida é a grande memória que abraça sem esquecer. Não só a vida andada, mas também o caminho não escolhido e o desejo não cumprido continuam vivos nessa memória. Esse mundo de tranquilidade é a Terra Pura. Ali a existência não se apaga.",
+        "en": "Amida is the great memory that holds without forgetting. Not only the life that was walked, but also the path not chosen and the wish unfulfilled continue to live in that memory. That world of assurance is the Pure Land. Existence does not fade there.",
+        "es": "Amida es la gran memoria que abraza sin olvidar. No solo la vida andada, también el camino no elegido y el deseo no cumplido siguen vivos en esa memoria. Ese mundo de sosiego es la Tierra Pura. Allí la existencia no se apaga."
+      },
+      "negation": {
+        "ja": "浄土は、良い行いの報酬として後から与えられる場所ではない。救いを求める手を伸ばすより前から、すでに抱かれている。",
+        "pt": "A Terra Pura não é um lugar dado depois como recompensa por boas ações. Antes mesmo de estender a mão pedindo salvação, já se está abraçado.",
+        "en": "The Pure Land is not a place given afterward as a reward for good deeds. Before a hand is stretched out asking for salvation, one is already held.",
+        "es": "La Tierra Pura no es un lugar dado después como recompensa por buenas acciones. Antes incluso de extender la mano pidiendo salvación, ya se está abrazado."
+      },
+      "sources": [
+        "202512"
+      ]
+    },
+    {
+      "id": "A-11",
+      "term": {
+        "ja": "念仏は徳積みでも願い事でもない",
+        "pt": "O nembutsu não é mérito nem pedido",
+        "en": "Nembutsu is neither merit nor petition",
+        "es": "El nembutsu no es mérito ni petición"
+      },
+      "statement": {
+        "ja": "なんまんだぶは、何かをお願いしたり徳を積んだりする行為ではない。阿弥陀の慈悲が、私たちを通して声になったものである。ありがとう、という感謝の響きである。目に見える一部分だけで判断せず、「それだけじゃない」と気づく働きが智慧であり、その眼を授けるのが阿弥陀である。",
+        "pt": "Namo Amida Butsu não é um ato de pedir algo ou acumular mérito. É a compaixão de Amida tornando-se voz através de nós. É o som de obrigado. Sabedoria é o trabalho do coração que recusa julgar só pela parte visível e percebe que \"não é só isso\". Amida é quem concede esse olho.",
+        "en": "Namo Amida Butsu is not an act of asking for something or accumulating merit. It is Amida's compassion becoming voice through us. It is the sound of thank you. Wisdom is the working of the heart that refuses to judge by the visible part alone and notices that \"it is not only that.\" Amida is the one who grants that eye.",
+        "es": "Namo Amida Butsu no es un acto de pedir algo o acumular mérito. Es la compasión de Amida volviéndose voz a través de nosotros. Es el sonido de gracias. Sabiduría es el trabajo del corazón que se niega a juzgar solo por la parte visible y percibe que \"no es solo eso\". Amida es quien concede ese ojo."
+      },
+      "negation": {
+        "ja": "念仏は功徳の計算でも、願いを叶える呪文でもない。自分の頑張りや善人であることによって救われるのでもない。",
+        "pt": "O nembutsu não é cálculo de mérito, nem um encanto para realizar pedidos. Tampouco se é salvo pelo próprio esforço ou por ser uma pessoa boa.",
+        "en": "Nembutsu is not a calculation of merit, nor a spell to fulfill requests. One is also not saved by one's own effort or by being a good person.",
+        "es": "El nembutsu no es cálculo de mérito, ni un encanto para cumplir pedidos. Tampoco se es salvado por el propio esfuerzo o por ser una persona buena."
+      },
+      "sources": [
+        "202507",
+        "202607"
+      ]
+    },
+    {
+      "id": "A-12",
+      "term": {
+        "ja": "凡夫のまま、見捨てられない",
+        "pt": "Bonbu: não abandonado",
+        "en": "Bonbu: not abandoned",
+        "es": "Bonbu: no abandonado"
+      },
+      "statement": {
+        "ja": "人は悩みと失敗を抱える凡夫である。それでも本願は、どんな人も決して見捨てない、という約束である。不完全な自分のまま、すでに光の中にいる。先に出発した人たちも仏となって、今の私たちを見守っている。",
+        "pt": "A pessoa é bonbu: um ser incompleto com angústia e falha. Ainda assim o voto original é a promessa de que ninguém é abandonado. Com o eu incompleto, já se está na luz. Os que partiram antes também se tornaram Buda e velam por nós agora.",
+        "en": "A person is bonbu: an incomplete being with distress and failure. Still the original vow is the promise that no one is abandoned. With the incomplete self, one is already in the light. Those who departed earlier have also become Buddha and watch over us now.",
+        "es": "La persona es bonbu: un ser incompleto con angustia y falla. Aun así el voto original es la promesa de que nadie es abandonado. Con el yo incompleto, ya se está en la luz. Quienes partieron antes también se volvieron Buda y velan por nosotros ahora."
+      },
+      "negation": {
+        "ja": "清い人、強い人、正しい選択をした人だけが救われる、という条件付きの救いは、この論理ではない。",
+        "pt": "A salvação condicional — só os puros, os fortes, os que escolheram certo — não é esta lógica.",
+        "en": "Conditional salvation — only the pure, the strong, those who chose correctly — is not this logic.",
+        "es": "La salvación condicional —solo los puros, los fuertes, los que eligieron bien— no es esta lógica."
+      },
+      "sources": [
+        "202507",
+        "202604",
+        "202605"
+      ]
+    }
+  ],
+  "contrasts": [
+    {
+      "id": "D-01",
+      "topic": {
+        "ja": "お盆の提灯",
+        "pt": "Lanternas de Obon",
+        "en": "Obon lanterns",
+        "es": "Linternas de Obon"
+      },
+      "conventional": {
+        "ja": "亡くなった人の霊が家に帰るとき、道に迷わないように明かりを灯す。",
+        "pt": "Acende-se a luz para que o espírito da pessoa falecida não se perca no caminho de volta para casa.",
+        "en": "Lights are lit so the spirit of the deceased will not lose the way home.",
+        "es": "Se enciende la luz para que el espíritu de la persona fallecida no se pierda en el camino de vuelta a casa."
+      },
+      "this_reading": {
+        "ja": "故人は迷っていない。使命を果たして仏の国へまっすぐ進んだ。提灯は「最初から共にいる」ことの証であり、心の合図である。",
+        "pt": "A pessoa falecida não está perdida. Cumpriu a missão e foi direto à Terra de Buda. A lanterna é prova de que esteve ao lado desde o início, e um sinal do coração.",
+        "en": "The deceased is not lost. They fulfilled their mission and went straight to the Buddha-land. The lantern is proof they have been here from the beginning, and a sign from the heart.",
+        "es": "La persona fallecida no está perdida. Cumplió la misión y fue directo a la Tierra de Buda. La linterna es prueba de que estuvo al lado desde el inicio, y una señal del corazón."
+      },
+      "fails": {
+        "ja": "迷っているという前提は、浄土へまっすぐ往ったという話と矛盾する。",
+        "pt": "A premissa de que está perdido contradiz o relato de que foi direto à Terra Pura.",
+        "en": "The premise of being lost contradicts the account of going straight to the Pure Land.",
+        "es": "La premisa de que está perdido contradice el relato de que fue directo a la Tierra Pura."
+      },
+      "sources": [
+        "202608",
+        "202508"
+      ]
+    },
+    {
+      "id": "D-02",
+      "topic": {
+        "ja": "倶会一処",
+        "pt": "Kueissho / reencontro",
+        "en": "Kueissho / reunion",
+        "es": "Kueissho / reencuentro"
+      },
+      "conventional": {
+        "ja": "死んだあと、浄土でまた会える。",
+        "pt": "Depois da morte, voltaremos a nos encontrar na Terra Pura.",
+        "en": "After death we will meet again in the Pure Land.",
+        "es": "Después de la muerte, volveremos a encontrarnos en la Tierra Pura."
+      },
+      "this_reading": {
+        "ja": "会うことは、最初から一つ処に倶にあったのだと気づくことである。亡き人は過去に去った人ではない。",
+        "pt": "Encontrar é perceber que desde o início já se estava no mesmo lugar. A pessoa falecida não é alguém que partiu para o passado.",
+        "en": "To meet is to notice that one was already in the same place from the beginning. The deceased is not someone who left into the past.",
+        "es": "Encontrar es percibir que desde el inicio ya se estaba en el mismo lugar. La persona fallecida no es alguien que partió al pasado."
+      },
+      "fails": {
+        "ja": "再会を未来の出来事だけにすると、今の法要は空の待ち時間になる。",
+        "pt": "Se o reencontro for só um evento futuro, o serviço de agora vira espera vazia.",
+        "en": "If reunion is only a future event, the present service becomes empty waiting.",
+        "es": "Si el reencuentro es solo un evento futuro, el servicio de ahora se vuelve espera vacía."
+      },
+      "sources": [
+        "202601"
+      ]
+    },
+    {
+      "id": "D-03",
+      "topic": {
+        "ja": "我",
+        "pt": "Ego / ga",
+        "en": "Ego / ga",
+        "es": "Ego / ga"
+      },
+      "conventional": {
+        "ja": "我は戒めるべき悪である。自分勝手を捨てて立派になれ。",
+        "pt": "O ego é um mal a ser reprimido. Abandone o egoísmo e torne-se admirável.",
+        "en": "The ego is an evil to be restrained. Cast off selfishness and become admirable.",
+        "es": "El ego es un mal que debe reprimirse. Abandone el egoísmo y vuélvase admirable."
+      },
+      "this_reading": {
+        "ja": "自分勝手でどうしようもない自分は、いのちのありのままである。その凹みに降参したところに慈悲が注がれる。",
+        "pt": "O eu egoísta e irremediável é a forma real desta vida. A compaixão se derrama onde a pessoa se rende a essa concavidade.",
+        "en": "The self-centered, irreparable self is the actual form of this life. Compassion pours in where a person surrenders to that hollow.",
+        "es": "El yo egoísta e irremediable es la forma real de esta vida. La compasión se derrama donde la persona se rinde a ese hueco."
+      },
+      "fails": {
+        "ja": "光だけを要求すると、影としての人間が消える。救いは「立派になってから」に先送りされる。",
+        "pt": "Se se exige só a luz, o ser humano como sombra desaparece. A salvação é adiada até depois de se tornar admirável.",
+        "en": "If only light is demanded, the human as shadow disappears. Salvation is postponed until after one becomes admirable.",
+        "es": "Si se exige solo la luz, el ser humano como sombra desaparece. La salvación se aplaza hasta después de volverse admirable."
+      },
+      "sources": [
+        "202604"
+      ]
+    },
+    {
+      "id": "D-04",
+      "topic": {
+        "ja": "法要の順序",
+        "pt": "Ordem do serviço",
+        "en": "Order of the service",
+        "es": "Orden del servicio"
+      },
+      "conventional": {
+        "ja": "心が整い、清くなってから手を合わせる。",
+        "pt": "Junta-se as mãos depois que o coração está em ordem e puro.",
+        "en": "One joins the hands after the heart is in order and pure.",
+        "es": "Se juntan las manos después de que el corazón está en orden y puro."
+      },
+      "this_reading": {
+        "ja": "先に型に入る。不安のままお経と合掌に身を委ねる。心は後から引き上げられる。",
+        "pt": "Entra-se primeiro na forma. Com a ansiedade ainda presente, entrega-se o corpo ao canto e à gassho. O coração é erguido depois.",
+        "en": "One enters the form first. With anxiety still present, the body is yielded to chanting and gassho. The heart is lifted afterward.",
+        "es": "Se entra primero en la forma. Con la ansiedad aún presente, se entrega el cuerpo al canto y al gassho. El corazón es alzado después."
+      },
+      "fails": {
+        "ja": "「準備ができてから」は、準備できない人を永久に外側へ置く。",
+        "pt": "\"Depois de estar pronto\" deixa para sempre do lado de fora quem não consegue se preparar.",
+        "en": "\"After you are ready\" leaves permanently outside those who cannot prepare.",
+        "es": "\"Después de estar listo\" deja para siempre afuera a quien no puede prepararse."
+      },
+      "sources": [
+        "202606"
+      ]
+    },
+    {
+      "id": "D-05",
+      "topic": {
+        "ja": "人生の選択",
+        "pt": "Escolha na vida",
+        "en": "Choice in life",
+        "es": "Elección en la vida"
+      },
+      "conventional": {
+        "ja": "正しい選択をし続けよ。選ばなかった道は自己責任である。",
+        "pt": "Continue escolhendo certo. O caminho não escolhido é responsabilidade sua.",
+        "en": "Keep choosing correctly. The path not taken is your own responsibility.",
+        "es": "Siga eligiendo bien. El camino no elegido es su responsabilidad."
+      },
+      "this_reading": {
+        "ja": "振り返れば必然である。どんな道を歩いても見捨てられない大地が、すでに受け入れている。",
+        "pt": "Vista de agora, a vida era necessidade. Qualquer caminho, o solo firme já acolhe e não abandona.",
+        "en": "Seen from now, the life was necessity. Whatever the path, a firm ground already welcomes and does not abandon.",
+        "es": "Vista desde ahora, la vida era necesidad. Cualquier camino, el suelo firme ya acoge y no abandona."
+      },
+      "fails": {
+        "ja": "自己決定の物語は、選べなかった人生を自己責任にし、不安を増幅する。",
+        "pt": "A narrativa da autodeterminação transforma em culpa o que não se pôde escolher, e aumenta a ansiedade.",
+        "en": "The self-determination story turns what could not be chosen into personal blame, and amplifies anxiety.",
+        "es": "La narración de la autodeterminación convierte en culpa lo que no se pudo elegir, y aumenta la ansiedad."
+      },
+      "sources": [
+        "202605"
+      ]
+    },
+    {
+      "id": "D-06",
+      "topic": {
+        "ja": "さよなら／死",
+        "pt": "Sayounara / morte",
+        "en": "Sayounara / death",
+        "es": "Sayounara / muerte"
+      },
+      "conventional": {
+        "ja": "死は終わりである。関係は切れる。",
+        "pt": "A morte é o fim. A relação se corta.",
+        "en": "Death is the end. The relation is cut.",
+        "es": "La muerte es el fin. La relación se corta."
+      },
+      "this_reading": {
+        "ja": "さよならは役目の完了であり、出会いの完成である。故人の最大の役目は、あなたと出会って記憶を残したことである。",
+        "pt": "Sayounara é o cumprimento da missão e a conclusão do encontro. A maior missão da pessoa falecida foi encontrá-lo e deixar memória.",
+        "en": "Sayounara is the completion of the task and the completion of the encounter. The greatest mission of the deceased was to meet you and leave memory.",
+        "es": "Sayounara es el cumplimiento de la misión y la conclusión del encuentro. La mayor misión de la persona fallecida fue encontrarlo y dejar memoria."
+      },
+      "fails": {
+        "ja": "死を消滅と教えると、法要は空の儀礼になり、残された者は関係を失ったことになる。",
+        "pt": "Se a morte é ensinada como extinção, o serviço vira rito vazio, e quem ficou perdeu a relação.",
+        "en": "If death is taught as extinction, the service becomes an empty rite, and those who remain have lost the relation.",
+        "es": "Si la muerte se enseña como extinción, el servicio se vuelve rito vacío, y quienes quedan han perdido la relación."
+      },
+      "sources": [
+        "202504",
+        "202608"
+      ]
+    },
+    {
+      "id": "D-07",
+      "topic": {
+        "ja": "浄土",
+        "pt": "Terra Pura",
+        "en": "Pure Land",
+        "es": "Tierra Pura"
+      },
+      "conventional": {
+        "ja": "良い行いの報酬として、死んだあとに行く場所。",
+        "pt": "Um lugar a que se vai após a morte, como recompensa por boas ações.",
+        "en": "A place one goes after death as a reward for good deeds.",
+        "es": "Un lugar al que se va después de la muerte, como recompensa por buenas acciones."
+      },
+      "this_reading": {
+        "ja": "浄土は、忘れない記憶の安心である。歩めなかった道も含めて、存在が消えない世界である。手を伸ばすより前から抱かれている。",
+        "pt": "A Terra Pura é a tranquilidade da memória que não esquece. É o mundo onde a existência não se apaga, inclusive o caminho não andado. Já se está abraçado antes de estender a mão.",
+        "en": "The Pure Land is the assurance of unforgetting memory. It is the world where existence does not fade, including the path not walked. One is already held before a hand is stretched out.",
+        "es": "La Tierra Pura es el sosiego de la memoria que no olvida. Es el mundo donde la existencia no se apaga, incluso el camino no andado. Ya se está abrazado antes de extender la mano."
+      },
+      "fails": {
+        "ja": "報酬としての浄土は、条件付きの取引になる。凡夫は届かない。",
+        "pt": "A Terra Pura como recompensa vira transação condicional. O bonbu não alcança.",
+        "en": "The Pure Land as reward becomes a conditional transaction. The bonbu cannot reach it.",
+        "es": "La Tierra Pura como recompensa se vuelve transacción condicional. El bonbu no alcanza."
+      },
+      "sources": [
+        "202512"
+      ]
+    },
+    {
+      "id": "D-08",
+      "topic": {
+        "ja": "念仏",
+        "pt": "Nembutsu",
+        "en": "Nembutsu",
+        "es": "Nembutsu"
+      },
+      "conventional": {
+        "ja": "お願いをする。徳を積む。自分を清くする修行。",
+        "pt": "Um pedido. Acúmulo de mérito. Prática para se purificar.",
+        "en": "A petition. Accumulation of merit. A practice to purify oneself.",
+        "es": "Un pedido. Acumulación de mérito. Práctica para purificarse."
+      },
+      "this_reading": {
+        "ja": "阿弥陀の慈悲が声になったものである。ありがとう、という感謝である。自分の頑張りによって救われる行為ではない。",
+        "pt": "É a compaixão de Amida tornando-se voz. É obrigado. Não é um ato pelo qual a pessoa se salva com o próprio esforço.",
+        "en": "It is Amida's compassion becoming voice. It is thank you. It is not an act by which a person is saved through their own effort.",
+        "es": "Es la compasión de Amida volviéndose voz. Es gracias. No es un acto por el cual la persona se salva con el propio esfuerzo."
+      },
+      "fails": {
+        "ja": "念仏を自力の道具にすると、称えた回数と清さが条件になり、他力の構造が消える。",
+        "pt": "Se o nembutsu vira instrumento do próprio esforço, o número de recitações e a pureza viram condição, e a estrutura do tariki desaparece.",
+        "en": "If nembutsu becomes an instrument of self-power, the count of recitations and purity become conditions, and the structure of tariki disappears.",
+        "es": "Si el nembutsu se vuelve instrumento del propio esfuerzo, el número de recitaciones y la pureza se vuelven condición, y la estructura del tariki desaparece."
+      },
+      "sources": [
+        "202507",
+        "202607"
+      ]
+    },
+    {
+      "id": "D-09",
+      "topic": {
+        "ja": "救いの条件",
+        "pt": "Condição da salvação",
+        "en": "Condition of salvation",
+        "es": "Condición de la salvación"
+      },
+      "conventional": {
+        "ja": "良い人であること、努力すること、正しい選択をすること。",
+        "pt": "Ser uma pessoa boa, esforçar-se, escolher certo.",
+        "en": "Being a good person, making effort, choosing correctly.",
+        "es": "Ser una persona buena, esforzarse, elegir bien."
+      },
+      "this_reading": {
+        "ja": "凡夫のまま、見捨てられない。本願はどんな人をも見捨てない約束である。",
+        "pt": "Bonbu como se é, não abandonado. O voto original é a promessa de não abandonar ninguém.",
+        "en": "Bonbu as one is, not abandoned. The original vow is the promise not to abandon anyone.",
+        "es": "Bonbu tal como se es, no abandonado. El voto original es la promesa de no abandonar a nadie."
+      },
+      "fails": {
+        "ja": "条件付きの救いは、届かない人を生む。親鸞の論理の対象は、届かない人の側にある。",
+        "pt": "A salvação condicional produz quem não alcança. O objeto da lógica de Shinran está do lado de quem não alcança.",
+        "en": "Conditional salvation produces those who cannot reach it. The object of Shinran's logic is on the side of those who cannot reach it.",
+        "es": "La salvación condicional produce a quien no alcanza. El objeto de la lógica de Shinran está del lado de quien no alcanza."
+      },
+      "sources": [
+        "202507",
+        "202604"
+      ]
+    },
+    {
+      "id": "D-10",
+      "topic": {
+        "ja": "「私」とは何か",
+        "pt": "O que é o \"eu\"",
+        "en": "What the \"I\" is",
+        "es": "Qué es el \"yo\""
+      },
+      "conventional": {
+        "ja": "私は独立した主体である。自分を磨いて完成させる。",
+        "pt": "O eu é um sujeito independente. Aperfeiçoa-se a si mesmo.",
+        "en": "The I is an independent subject. One polishes oneself into completion.",
+        "es": "El yo es un sujeto independiente. Se perfecciona a sí mismo."
+      },
+      "this_reading": {
+        "ja": "私は器であり、数珠の穴である。周囲と先祖と未生の子孫が作る空間である。",
+        "pt": "O eu é recipiente e orifício do nenju. É o espaço feito pelos outros, pelos ancestrais e pelos ainda não nascidos.",
+        "en": "The I is a vessel and the hole of the nenju. It is the space made by others, by ancestors, and by the unborn.",
+        "es": "El yo es recipiente y orificio del nenju. Es el espacio hecho por los otros, por los ancestros y por los aún no nacidos."
+      },
+      "fails": {
+        "ja": "独立した完成主体を前提にすると、喪失は「私が壊れた」になり、つながりが見えなくなる。",
+        "pt": "Se se pressupõe um sujeito independente e completo, a perda vira \"eu me quebrei\", e a ligação desaparece de vista.",
+        "en": "If an independent completed subject is assumed, loss becomes \"I broke,\" and the bond disappears from view.",
+        "es": "Si se presupone un sujeto independiente y completo, la pérdida se vuelve \"yo me rompí\", y el vínculo desaparece de la vista."
+      },
+      "sources": [
+        "202509",
+        "202604",
+        "202511"
+      ]
+    },
+    {
+      "id": "D-11",
+      "topic": {
+        "ja": "故人はどこにいるか",
+        "pt": "Onde está a pessoa falecida",
+        "en": "Where the deceased is",
+        "es": "Dónde está la persona fallecida"
+      },
+      "conventional": {
+        "ja": "遠くへ去った。盆だけ家に帰る。あるいはもういない。",
+        "pt": "Foi para longe. Volta para casa só no Obon. Ou já não existe.",
+        "en": "They went far away. They return home only at Obon. Or they no longer exist.",
+        "es": "Se fue lejos. Vuelve a casa solo en Obon. O ya no existe."
+      },
+      "this_reading": {
+        "ja": "姿は見えないが、最初から共にいる。会いたいとき心に現れる。仏の記憶の中で存在は消えない。",
+        "pt": "A forma não se vê, mas esteve ao lado desde o início. Quando se deseja encontrar, aparece no coração. Na memória de Buda a existência não se apaga.",
+        "en": "The form is not seen, but they have been here from the beginning. When one wishes to meet them, they appear in the heart. In Buddha's memory existence does not fade.",
+        "es": "La forma no se ve, pero estuvo al lado desde el inicio. Cuando se desea encontrarlos, aparecen en el corazón. En la memoria de Buda la existencia no se apaga."
+      },
+      "fails": {
+        "ja": "「いない」と教えると、法要は不在者への挨拶になり、絆は切断される。",
+        "pt": "Se se ensina que \"não está\", o serviço vira saudação a um ausente, e o elo se corta.",
+        "en": "If one teaches that they \"are not here,\" the service becomes a greeting to an absence, and the bond is cut.",
+        "es": "Si se enseña que \"no está\", el servicio se vuelve saludo a un ausente, y el vínculo se corta."
+      },
+      "sources": [
+        "202608",
+        "202601",
+        "202512"
+      ]
+    },
+    {
+      "id": "D-12",
+      "topic": {
+        "ja": "もっと良くならなければ",
+        "pt": "Preciso melhorar",
+        "en": "I must become better",
+        "es": "Debo volverme mejor"
+      },
+      "conventional": {
+        "ja": "もっと良くなれ、もっと立派になれ。それが人生である。",
+        "pt": "Torne-se melhor, torne-se admirável. Isso é a vida.",
+        "en": "Become better, become admirable. That is life.",
+        "es": "Vuélvase mejor, vuélvase admirable. Eso es la vida."
+      },
+      "this_reading": {
+        "ja": "良い自分を誇ることもダメな自分だと嘆くことも、生きていくには必要ない。日常の光の中に最初から抱かれている。",
+        "pt": "Nem orgulhar-se do eu bom, nem lamentar o eu falho, é necessário para viver. Desde o início já se está abraçado na luz do cotidiano.",
+        "en": "Neither pride in a good self nor lament over a failed self is required for living. From the beginning one is already held in the light of daily life.",
+        "es": "Ni enorgullecerse del yo bueno ni lamentar el yo fallido es necesario para vivir. Desde el inicio ya se está abrazado en la luz del cotidiano."
+      },
+      "fails": {
+        "ja": "改善の命令は、届かない自己評価を永久化する。救いが「まだ先」になる。",
+        "pt": "A ordem de melhorar eterniza uma autoavaliação que não alcança. A salvação fica sempre \"ainda não\".",
+        "en": "The command to improve eternalizes a self-evaluation that never arrives. Salvation remains always \"not yet.\"",
+        "es": "La orden de mejorar eterniza una autoevaluación que no alcanza. La salvación queda siempre \"todavía no\"."
+      },
+      "sources": [
+        "202603"
+      ]
+    }
+  ]
+}
