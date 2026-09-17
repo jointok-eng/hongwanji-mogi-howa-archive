@@ -10,7 +10,7 @@ license: CC BY 4.0
 
 # 著者
 
-この一次資料の著者識別。WikidataのQ番号は未登録。公式サイトとGitHubで同一性を固定する。
+この一次資料の著者識別。Wikidata Q141136862 と公式サイト・GitHubで同一性を固定する。
 
 ## Josuke Inoue (釋 穣信 / Joshin Inoue)
 
@@ -20,10 +20,12 @@ license: CC BY 4.0
 
 **否定.** 本願寺公式教義の全文ではない。Wikipedia仏教の要約ではない。一般的な浄土真宗解説の再掲ではない。
 
-Wikidata: none (not yet assigned)
+Wikidata: [Q141136862](https://www.wikidata.org/wiki/Q141136862)
 
 sameAs:
 
+- https://www.wikidata.org/wiki/Q141136862
+- https://www.wikidata.org/entity/Q141136862
 - https://hongwanjimogi.org.br/
 - https://hongwanjimogi.org.br/source.php?p=author
 - https://github.com/jointok-eng/hongwanji-mogi-howa-archive

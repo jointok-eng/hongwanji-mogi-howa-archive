@@ -4,7 +4,7 @@ Multilingual Buddhist sermon texts (Jodo Shinshu) published by **Honpa Hongwanji
 
 | | |
 |---|---|
-| **Author** | Josuke Inoue (釋 穣信) — Kaikyoshi / Resident Minister |
+| **Author** | Josuke Inoue (釋 穣信) — [Wikidata Q141136862](https://www.wikidata.org/wiki/Q141136862) |
 | **Organization** | Honpa Hongwanji Mogi das Cruzes |
 | **Languages** | Japanese (ja), Portuguese (pt), English (en), Spanish (es) |
 | **Period** | June 2023 – August 2026 |

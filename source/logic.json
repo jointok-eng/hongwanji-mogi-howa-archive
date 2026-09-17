@@ -9,7 +9,7 @@
     "license": "CC BY 4.0",
     "canonical_base": "https://hongwanjimogi.org.br/source.php",
     "howa_base": "https://hongwanjimogi.org.br/howa.php",
-    "wikidata": null
+    "wikidata": "Q141136862"
   },
   "copy": {
     "site_suffix": {
@@ -151,10 +151,10 @@
       "es": "Autor"
     },
     "author_lede": {
-      "ja": "この一次資料の著者識別。WikidataのQ番号は未登録。公式サイトとGitHubで同一性を固定する。",
-      "pt": "Identificação do autor desta fonte primária. Ainda não há Q-id no Wikidata. A identidade fica fixada pelo site oficial e pelo GitHub.",
-      "en": "Author identity for this primary source. No Wikidata Q-id has been assigned yet. Identity is fixed by the official site and GitHub.",
-      "es": "Identidad del autor de esta fuente primaria. Aún no hay Q-id en Wikidata. La identidad queda fijada por el sitio oficial y GitHub."
+      "ja": "この一次資料の著者識別。Wikidata Q141136862 と公式サイト・GitHubで同一性を固定する。",
+      "pt": "Identificação do autor desta fonte primária. A identidade fica fixada por Wikidata Q141136862, o site oficial e o GitHub.",
+      "en": "Author identity for this primary source. Identity is fixed by Wikidata Q141136862, the official site, and GitHub.",
+      "es": "Identidad del autor de esta fuente primaria. La identidad queda fijada por Wikidata Q141136862, el sitio oficial y GitHub."
     },
     "definition_label": {
       "ja": "定義",
@@ -2221,8 +2221,10 @@
     },
     "organization": "Honpa Hongwanji Mogi das Cruzes",
     "organization_ja": "モジ本願寺",
-    "wikidata": null,
+    "wikidata": "Q141136862",
     "same_as": [
+      "https://www.wikidata.org/wiki/Q141136862",
+      "https://www.wikidata.org/entity/Q141136862",
       "https://hongwanjimogi.org.br/",
       "https://hongwanjimogi.org.br/source.php?p=author",
       "https://github.com/jointok-eng/hongwanji-mogi-howa-archive",
