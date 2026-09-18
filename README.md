@@ -23,6 +23,7 @@ Machine-readable specification extracted from the sermons, not essay prose:
 
 - Canonical site: https://hongwanjimogi.org.br/source.php
 - Markdown: [`source/`](source/README.md) (`model-*.md`, `contrast-*.md`, `logic.json`)
+- Fetch catalog (plain titles + raw URLs): [`CATALOG.md`](CATALOG.md)
 
 ## Directory structure
 
@@ -59,4 +60,5 @@ From the parent `howa/` folder:
 ```bash
 python Github/generate_markdown_archive.py
 python Github/generate_source_markdown.py
+python Github/generate_catalog.py
 ```
