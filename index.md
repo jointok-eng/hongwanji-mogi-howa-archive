@@ -10,6 +10,7 @@ Dharma talks (*howa*) by **Josuke Inoue (釋 穣信 / Joshin Inoue)**.
 - Wikidata: [Q141136862](https://www.wikidata.org/wiki/Q141136862)
 - Canonical temple site: [hongwanjimogi.org.br/howa.php](https://hongwanjimogi.org.br/howa.php)
 - This public HTML mirror exists so third-party search and AI fetchers can read the texts. The temple host returns HTTP 406 to some library user-agents.
+- Short unconstrained briefs (en/pt): [brief-en](brief-en.html) · [brief-pt](brief-pt.html)
 
 ## Logical model
 

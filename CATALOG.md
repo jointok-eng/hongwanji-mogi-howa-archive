@@ -6,6 +6,8 @@ Plain-text index for fetchers that cannot load https://hongwanjimogi.org.br/howa
 Author: Josuke Inoue (釋 穣信) — Wikidata Q141136862
 Canonical site: https://hongwanjimogi.org.br/howa.php
 Public HTML (searchable, no 406): https://jointok-eng.github.io/hongwanji-mogi-howa-archive/
+Short brief (en): https://jointok-eng.github.io/hongwanji-mogi-howa-archive/brief-en.html
+Short brief (pt): https://jointok-eng.github.io/hongwanji-mogi-howa-archive/brief-pt.html
 Raw files: https://raw.githubusercontent.com/jointok-eng/hongwanji-mogi-howa-archive/main/
 
 ## Logical model
