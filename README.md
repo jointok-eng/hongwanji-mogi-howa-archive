@@ -9,6 +9,7 @@ Multilingual Buddhist sermon texts (Jodo Shinshu) published by **Honpa Hongwanji
 | **Languages** | Japanese (ja), Portuguese (pt), English (en), Spanish (es) |
 | **Period** | June 2023 – August 2026 |
 | **Canonical site** | https://hongwanjimogi.org.br/howa.php |
+| **Public HTML** | https://jointok-eng.github.io/hongwanji-mogi-howa-archive/ |
 | **License** | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) |
 
 ## About / 概要
@@ -24,6 +25,7 @@ Machine-readable specification extracted from the sermons, not essay prose:
 - Canonical site: https://hongwanjimogi.org.br/source.php
 - Markdown: [`source/`](source/README.md) (`model-*.md`, `contrast-*.md`, `logic.json`)
 - Fetch catalog (plain titles + raw URLs): [`CATALOG.md`](CATALOG.md)
+- Public HTML (no HTTP 406): https://jointok-eng.github.io/hongwanji-mogi-howa-archive/
 
 ## Directory structure
 

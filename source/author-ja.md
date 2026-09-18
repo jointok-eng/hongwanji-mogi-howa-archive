@@ -4,7 +4,7 @@ date: 2026-09-17
 author: Josuke Inoue (釋 穣信)
 organization: Honpa Hongwanji Mogi das Cruzes
 language: ja
-url: https://hongwanjimogi.org.br/source.php?p=author&lang=ja
+origin_url: https://hongwanjimogi.org.br/source.php?p=author&lang=ja
 license: CC BY 4.0
 ---
 
@@ -29,4 +29,5 @@ sameAs:
 - https://hongwanjimogi.org.br/
 - https://hongwanjimogi.org.br/source.php?p=author
 - https://github.com/jointok-eng/hongwanji-mogi-howa-archive
+- https://jointok-eng.github.io/hongwanji-mogi-howa-archive/
 - https://hongwanji.org.br/templos/

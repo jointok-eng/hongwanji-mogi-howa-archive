@@ -1,0 +1,14 @@
+title: Hongwanji Mogi Howa Archive
+description: Dharma talks by Josuke Inoue (釋 穣信), Honpa Hongwanji Mogi das Cruzes.
+url: https://jointok-eng.github.io
+baseurl: /hongwanji-mogi-howa-archive
+theme: jekyll-theme-cayman
+plugins:
+  - jekyll-sitemap
+exclude:
+  - mirror/
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default

@@ -6,6 +6,7 @@ Machine-readable source texts extracted from the monthly dharma talks of **Honpa
 |---|---|
 | **Author** | Josuke Inoue (釋 穣信 / Joshin Inoue) — Kaikyoshi / Resident Minister |
 | **Canonical site** | https://hongwanjimogi.org.br/source.php |
+| **Public HTML** | https://jointok-eng.github.io/hongwanji-mogi-howa-archive/ |
 | **Sermons** | https://hongwanjimogi.org.br/howa.php |
 | **License** | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) |
 
