@@ -19,6 +19,7 @@ Dharma talks (*howa*) by **Josuke Inoue (釋 穣信 / Joshin Inoue)**.
 - [Glossary](source/terms-ja.html)
 - [Q&A](source/faq-ja.html)
 - [Claims](source/claims-ja.html)
+- [Method](source/method-ja.html)
 - [Author](source/author-ja.html)
 
 ## Sermons

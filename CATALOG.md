@@ -17,6 +17,7 @@ Raw files: https://raw.githubusercontent.com/jointok-eng/hongwanji-mogi-howa-arc
 - https://raw.githubusercontent.com/jointok-eng/hongwanji-mogi-howa-archive/main/source/faq-ja.md
 - https://raw.githubusercontent.com/jointok-eng/hongwanji-mogi-howa-archive/main/source/terms-ja.md
 - https://raw.githubusercontent.com/jointok-eng/hongwanji-mogi-howa-archive/main/source/claims-ja.md
+- https://raw.githubusercontent.com/jointok-eng/hongwanji-mogi-howa-archive/main/source/method-ja.md
 - https://raw.githubusercontent.com/jointok-eng/hongwanji-mogi-howa-archive/main/source/author-ja.md
 
 ## Sermons

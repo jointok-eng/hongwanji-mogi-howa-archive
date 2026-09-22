@@ -15,7 +15,8 @@ Machine-readable source texts extracted from the monthly dharma talks of **Honpa
 3. Glossary (`terms-*.md`)
 4. Q&A (`faq-*.md`)
 5. Claim registry (`claims-*.md`)
-6. Author identity (`author-*.md`)
+6. Method (`method-*.md`) — restating Shinran; not a new T-number
+7. Author identity (`author-*.md`)
 
 Languages: Japanese (`ja`), Portuguese (`pt`), English (`en`), Spanish (`es`).
 

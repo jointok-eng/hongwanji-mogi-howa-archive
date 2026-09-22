@@ -135,6 +135,7 @@ Human source: [202507](https://hongwanjimogi.org.br/howa.php?id=202507&lang=pt),
 - [Axioms](https://jointok-eng.github.io/hongwanji-mogi-howa-archive/source/model-pt.html)
 - [Q&A](https://jointok-eng.github.io/hongwanji-mogi-howa-archive/source/faq-pt.html)
 - [Contrast](https://jointok-eng.github.io/hongwanji-mogi-howa-archive/source/contrast-pt.html)
+- [Method](https://jointok-eng.github.io/hongwanji-mogi-howa-archive/source/method-pt.html)
 - [Author](https://jointok-eng.github.io/hongwanji-mogi-howa-archive/source/author-pt.html)
 
 ## Páginas canônicas das palestras (para humanos)

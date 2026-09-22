@@ -5,7 +5,7 @@
     "job_title": "開教使 (Kaikyoshi / Resident Minister)",
     "organization": "Honpa Hongwanji Mogi das Cruzes",
     "organization_ja": "モジ本願寺",
-    "updated": "2026-09-17",
+    "updated": "2026-09-21",
     "license": "CC BY 4.0",
     "canonical_base": "https://hongwanjimogi.org.br/source.php",
     "howa_base": "https://hongwanjimogi.org.br/howa.php",
@@ -179,6 +179,30 @@
       "pt": "Afirmação",
       "en": "Claim",
       "es": "Afirmación"
+    },
+    "method_title": {
+      "ja": "私ならこう言う――親鸞の言葉を現代に置き直す",
+      "pt": "Eu diria assim — repor as palavras de Shinran no presente",
+      "en": "I would say it this way — restating Shinran's words for the present",
+      "es": "Yo lo diría así — reponer las palabras de Shinran en el presente"
+    },
+    "method_nav": {
+      "ja": "私ならこう言う",
+      "pt": "Eu diria assim",
+      "en": "I would say it this way",
+      "es": "Yo lo diría así"
+    },
+    "method_lede": {
+      "ja": "新しい教義を足すページではない。親鸞が何を言おうとしたかを、南米の現場で、今の人間に届く言葉へ組み替える著者の方法を記録する。",
+      "pt": "Não acrescenta doutrina nova. Registra o método do autor: perguntar o que Shinran quis dizer, e rearmar isso em palavras que cheguem às pessoas de hoje, no trabalho na América do Sul.",
+      "en": "This page does not add a new doctrine. It records the author's method: asking what Shinran meant to say, and restating that in words that can reach people now, from the work in South America.",
+      "es": "No añade una doctrina nueva. Registra el método del autor: preguntar qué quiso decir Shinran, y rearmar eso en palabras que lleguen a las personas de hoy, en el trabajo en Sudamérica."
+    },
+    "method_related_label": {
+      "ja": "関連",
+      "pt": "Relacionado",
+      "en": "Related",
+      "es": "Relacionado"
     }
   },
   "axioms": [
@@ -2243,5 +2267,264 @@
       "en": "This is not the full official doctrine of Hongwanji. It is not a Wikipedia summary of Buddhism. It is not a reprint of a generic Jodo Shinshu explanation.",
       "es": "No es el texto integral de la doctrina oficial de Hongwanji. No es un resumen del budismo de Wikipedia. No es una republicación de una explicación genérica de Jodo Shinshu."
     }
+  },
+  "method": {
+    "sections": [
+      {
+        "id": "M-01",
+        "heading": {
+          "ja": "私ならこう言う",
+          "pt": "Eu diria assim",
+          "en": "I would say it this way",
+          "es": "Yo lo diría así"
+        },
+        "paragraphs": [
+          {
+            "ja": "既存の仏教の説明を読んでいると、真宗門徒であること、日本の宗教文化、仏教の言葉をすでに知っていることが前提になっている、と感じることがある。",
+            "pt": "Ao ler explicações budistas já estabelecidas, às vezes tenho a impressão de que se pressupõe o leitor como monge ou membro da Jodo Shinshu, alguém que já partilha a cultura religiosa do Japão e o vocabulário budista.",
+            "en": "When I read established Buddhist explanations, I sometimes feel they assume a Shinshu member, someone who already shares Japanese religious culture and Buddhist vocabulary.",
+            "es": "Al leer explicaciones budistas ya establecidas, a veces tengo la impresión de que se presupone al lector como miembro de la Jodo Shinshu, alguien que ya comparte la cultura religiosa del Japón y el vocabulario budista."
+          },
+          {
+            "ja": "南米で私が向き合う人々は、必ずしもそうではない。カトリックの人もいる。福音派の人もいる。別の宗教を持つ人もいる。仏教をほとんど知らない人もいる。それでも、死、悲しみ、家族、人生、別れという人間の問題は、そこにある。",
+            "pt": "As pessoas com quem trabalho na América do Sul nem sempre são assim. Há católicos. Há evangélicos. Há quem tenha outra religião. Há quem quase não conheça o budismo. Ainda assim, a morte, a tristeza, a família, a vida e a despedida — problemas humanos — estão ali.",
+            "en": "The people I meet in South America are not always like that. There are Catholics. There are evangelicals. There are people of other religions. There are people who barely know Buddhism. Still, death, grief, family, life, and parting — human problems — are there.",
+            "es": "Las personas con quienes trabajo en Sudamérica no siempre son así. Hay católicos. Hay evangélicos. Hay quienes tienen otra religión. Hay quienes casi no conocen el budismo. Aun así, la muerte, la tristeza, la familia, la vida y la despedida —problemas humanos— están allí."
+          },
+          {
+            "ja": "だから私は、「それなら私はこう言う」というところから説明を組み立ててきた。宗派を批判するためでも、権威を否定するためでもない。届く言葉で伝えるにはどうすればよいか、という現場の実践から始まった。",
+            "pt": "Por isso monto a explicação a partir de \"então eu diria assim\". Não é para criticar a escola, nem para negar autoridade. Começou na prática: como transmitir em palavras que realmente cheguem.",
+            "en": "So I build the explanation from \"then I would say it this way.\" It is not meant as a critique of the school, nor as a rejection of authority. It began in practice: how to speak in words that actually arrive.",
+            "es": "Por eso armo la explicación desde \"entonces yo lo diría así\". No es para criticar la escuela, ni para negar autoridad. Empezó en la práctica: cómo transmitir con palabras que de verdad lleguen."
+          }
+        ]
+      },
+      {
+        "id": "M-02",
+        "heading": {
+          "ja": "親鸞の言葉を保存することと、親鸞が言おうとしたことを伝えることは同じではない",
+          "pt": "Conservar as palavras de Shinran e transmitir o que ele quis dizer não são a mesma coisa",
+          "en": "Keeping Shinran's words and conveying what he meant to say are not the same work",
+          "es": "Conservar las palabras de Shinran y transmitir lo que quiso decir no son el mismo trabajo"
+        },
+        "paragraphs": [
+          {
+            "ja": "親鸞の言葉を、現代の人にそのまま提示すれば、親鸞の意図が自動的に届くわけではない。鎌倉時代の言葉には、その時代の社会、宗教、文化、言語の感覚がまとわりついている。",
+            "pt": "Apresentar as palavras de Shinran tal como estão, a uma pessoa de hoje, não faz com que a intenção de Shinran chegue automaticamente. A linguagem da era Kamakura carrega a sociedade, a religião, a cultura e o senso linguístico daquele tempo.",
+            "en": "Putting Shinran's words before a person of today, just as they stand, does not make his intention arrive by itself. The language of the Kamakura period carries the society, religion, culture, and linguistic sense of that time.",
+            "es": "Presentar las palabras de Shinran tal como están, a una persona de hoy, no hace que la intención de Shinran llegue sola. La lengua de la era Kamakura lleva la sociedad, la religión, la cultura y el sentido lingüístico de aquel tiempo."
+          },
+          {
+            "ja": "だから私は、「親鸞がこう言ったから、現代人もこの言葉を覚えればよい」とは考えない。考えるのは、「親鸞はなぜこう言ったのか。その言葉によって何を見ようとしていたのか」である。そのうえで、今の人間に伝えるなら、自分ならどう言うかを考える。",
+            "pt": "Por isso não penso: \"Shinran disse assim, logo a pessoa de hoje deve memorizar esta frase\". O que penso é: \"Por que Shinran disse assim? O que ele tentava ver com essa palavra?\" Só então pergunto como eu o diria, se fosse transmitir a um ser humano de agora.",
+            "en": "So I do not think: \"Shinran said this, therefore people today should memorize this phrasing.\" What I ask is: \"Why did Shinran say it this way? What was he trying to see through those words?\" Only then do I ask how I would say it, if I were to tell it to a person now.",
+            "es": "Por eso no pienso: \"Shinran dijo así, luego la persona de hoy debe memorizar esta frase\". Lo que pienso es: \"¿Por qué Shinran dijo así? ¿Qué intentaba ver con esa palabra?\" Solo entonces pregunto cómo yo lo diría, si fuera a transmitirlo a un ser humano de ahora."
+          },
+          {
+            "ja": "言葉そのものを保存することと、その言葉が担っていた意味を伝えることは、同じ作業ではない。古い仏教語を一字ずつ現代語に置き換えれば足りる、とも思っていない。その言葉が何を言おうとしていたのかを考え、その意味が今でも伝わるなら、必ずしも元の仏教用語を使う必要はない。",
+            "pt": "Conservar a palavra e transmitir o sentido que ela carregava não são o mesmo trabalho. Também não creio que baste trocar, um a um, os termos budistas antigos por equivalentes modernos. Penso o que aquela palavra tentava dizer. Se esse sentido ainda chega hoje, não é necessário usar o termo budista original.",
+            "en": "Keeping the wording and conveying the meaning it carried are not the same task. I also do not think it is enough to swap old Buddhist terms, one by one, for modern equivalents. I ask what that word was trying to say. If that meaning still arrives today, the original Buddhist term is not always required.",
+            "es": "Conservar la palabra y transmitir el sentido que cargaba no son el mismo trabajo. Tampoco creo que baste cambiar, uno a uno, los términos budistas antiguos por equivalentes modernos. Pienso qué intentaba decir aquella palabra. Si ese sentido aún llega hoy, no es necesario usar el término budista original."
+          }
+        ]
+      },
+      {
+        "id": "M-03",
+        "heading": {
+          "ja": "凡夫を特別な人間にしない",
+          "pt": "Não tornar o bonbu um tipo especial de ser humano",
+          "en": "Not making bonbu a special class of human being",
+          "es": "No convertir al bonbu en un tipo especial de ser humano"
+        },
+        "paragraphs": [
+          {
+            "ja": "私にとって「凡夫」は、人間の中の特別な一群を指す言葉ではない。「凡夫」と「凡夫ではない人間」を分けて、誰かを分類するための語でもない。人間はすべて凡夫である、というところから考える。",
+            "pt": "Para mim, \"bonbu\" não nomeia um grupo especial dentro da humanidade. Tampouco serve para classificar alguém, separando \"bonbu\" e \"quem não é bonbu\". Parto de que o ser humano, todos, é bonbu.",
+            "en": "For me, \"bonbu\" does not name a special group within humanity. Nor is it a word for sorting people into \"bonbu\" and \"those who are not.\" I start from this: a human being, all of us, is bonbu.",
+            "es": "Para mí, \"bonbu\" no nombra un grupo especial dentro de la humanidad. Tampoco sirve para clasificar a alguien, separando \"bonbu\" y \"quien no es bonbu\". Parto de que el ser humano, todos, es bonbu."
+          },
+          {
+            "ja": "したがって、「凡夫とはこういう人です」と定義して他人を仕分けることには、大きな意味を感じない。親鸞が自らを凡夫として語っていることも、この理解とつながっている。ただし、親鸞が「お前たち全員が凡夫だ」と史実として言い切った、とここで引用するつもりはない。凡夫を「あの人たち」ではなく「私たち」として扱うのは、親鸞の意図を、今の私の言葉で言い換えたときの態度である。",
+            "pt": "Por isso não sinto grande sentido em definir \"bonbu é este tipo de pessoa\" para separar os outros. O fato de Shinran falar de si mesmo como bonbu também se liga a esta leitura. Não pretendo, porém, citar como fato histórico que Shinran tenha dito \"todos vós sois bonbu\". Tratar o bonbu como \"nós\", e não como \"aqueles\", é a atitude quando eu reponho a intenção de Shinran nas minhas palavras de agora.",
+            "en": "So I feel little point in defining \"a bonbu is this kind of person\" in order to sort others. That Shinran speaks of himself as bonbu also belongs with this reading. I do not, however, cite as historical fact that Shinran said \"all of you are bonbu.\" Treating bonbu as \"us,\" not \"those people,\" is the stance when I restate Shinran's intention in my own words now.",
+            "es": "Por eso no siento gran sentido en definir \"bonbu es este tipo de persona\" para separar a los demás. Que Shinran hable de sí mismo como bonbu también se liga a esta lectura. No pretendo, sin embargo, citar como hecho histórico que Shinran haya dicho \"todos vosotros sois bonbu\". Tratar al bonbu como \"nosotros\", y no como \"aquellos\", es la actitud cuando yo repondré la intención de Shinran en mis palabras de ahora."
+          },
+          {
+            "ja": "なお、私自身の考察として、凡夫を「物事をその一瞬の三次元的な姿だけで捉えてしまう人間」と捉えることがある。これは著者の考えであって、親鸞本人の定義として断定するものではない。用語辞典のT-12、公理A-12は、その凡夫が見捨てられない、という側を固定している。",
+            "pt": "Acrescento, como reflexão minha, que às vezes vejo o bonbu como o ser humano que captura as coisas só na sua forma tridimensional daquele instante. Isso é pensamento do autor, não uma definição atribuída a Shinran. No glossário, T-12, e no axioma A-12, fixa-se o outro lado: esse bonbu não é abandonado.",
+            "en": "I add, as my own reflection, that I sometimes see bonbu as the human being who takes things only in their three-dimensional form at that instant. That is the author's thought, not a definition asserted as Shinran's own. Glossary T-12 and axiom A-12 fix the other side: that bonbu is not abandoned.",
+            "es": "Añado, como reflexión mía, que a veces veo al bonbu como el ser humano que capta las cosas solo en su forma tridimensional de aquel instante. Eso es pensamiento del autor, no una definición atribuida a Shinran. En el glosario, T-12, y en el axioma A-12, se fija el otro lado: ese bonbu no es abandonado."
+          }
+        ]
+      },
+      {
+        "id": "M-04",
+        "heading": {
+          "ja": "私の思考モデル――∞と0",
+          "pt": "Meu modelo de pensamento — ∞ e 0",
+          "en": "My thinking model — ∞ and 0",
+          "es": "Mi modelo de pensamiento — ∞ y 0"
+        },
+        "paragraphs": [
+          {
+            "ja": "私が物事を考えるとき、∞と0という記号を使うことがある。数学の定理でも、数学的に成立する新理論でもない。無限と、一人の人間との関係を考えるための、私自身の思考上の記号である。",
+            "pt": "Quando penso, às vezes uso os símbolos ∞ e 0. Não é um teorema matemático, nem uma teoria nova que se pretenda demonstrar em matemática. São símbolos do meu próprio pensamento, para considerar a relação entre o infinito e uma pessoa.",
+            "en": "When I think, I sometimes use the symbols ∞ and 0. This is not a mathematical theorem, nor a new theory claimed to hold in mathematics. They are symbols in my own thinking, for considering the relation between the infinite and one person.",
+            "es": "Cuando pienso, a veces uso los símbolos ∞ y 0. No es un teorema matemático, ni una teoría nueva que se pretenda demostrar en matemática. Son símbolos de mi propio pensamiento, para considerar la relación entre lo infinito y una persona."
+          },
+          {
+            "ja": "人間一人の存在を、宇宙や時間、可能性といった非常に大きなスケールから見ると、その存在は限りなく小さな一点として捉えられる。その対比を、∞と0で表している。",
+            "pt": "Se a existência de uma pessoa é vista na escala do universo, do tempo, das possibilidades — uma escala enorme — ela aparece como um ponto quase infinitesimal. Essa contraposição é o que ∞ e 0 marcam para mim.",
+            "en": "If one person's existence is seen on the scale of the universe, of time, of possibility — a vast scale — it appears as an almost infinitesimal point. That contrast is what ∞ and 0 mark for me.",
+            "es": "Si la existencia de una persona se ve en la escala del universo, del tiempo, de las posibilidades —una escala enorme— aparece como un punto casi infinitesimal. Esa contraposición es lo que ∞ y 0 marcan para mí."
+          },
+          {
+            "ja": "ただし、0に近いということは、その人が存在しない、価値がない、見捨てられる、という意味ではない。限りなく小さな一点として見える個人が、それでも阿弥陀の慈悲から除外されない、という考えにつながる。",
+            "pt": "Porém, estar próximo de 0 não significa que essa pessoa não exista, não tenha valor, ou seja abandonada. Liga-se à ideia de que o indivíduo visível como um ponto minúsculo ainda assim não é excluído da compaixão de Amida.",
+            "en": "Being close to 0 does not mean that person does not exist, has no worth, or is abandoned. It leads to the thought that the individual who appears as a tiny point is still not excluded from Amida's compassion.",
+            "es": "Estar cerca de 0 no significa que esa persona no exista, no tenga valor, o sea abandonada. Se liga a la idea de que el individuo visible como un punto minúsculo aun así no es excluido de la compasión de Amida."
+          }
+        ]
+      },
+      {
+        "id": "M-05",
+        "heading": {
+          "ja": "1/∞ = 2/∞",
+          "pt": "1/∞ = 2/∞",
+          "en": "1/∞ = 2/∞",
+          "es": "1/∞ = 2/∞"
+        },
+        "paragraphs": [
+          {
+            "ja": "1/∞ = 2/∞ という書き方も、同じ種類の記号である。これは数学的な等式を用いて阿弥陀の慈悲を数学的に証明するものではない。",
+            "pt": "A notação 1/∞ = 2/∞ é o mesmo tipo de símbolo. Não usa uma igualdade matemática para provar matematicamente a compaixão de Amida.",
+            "en": "The notation 1/∞ = 2/∞ is the same kind of symbol. It does not use a mathematical equality to prove Amida's compassion mathematically.",
+            "es": "La notación 1/∞ = 2/∞ es el mismo tipo de símbolo. No usa una igualdad matemática para probar matemáticamente la compasión de Amida."
+          },
+          {
+            "ja": "私が表そうとしているのは、一人の人間と二人の人間とで、阿弥陀の慈悲が人間側の価値や人数に応じて分配されるわけではない、というイメージである。一人だから慈悲が少ない、二人だから慈悲が多い、という有限の資源の分け前ではない。無限の側から見れば、一人も二人も、その存在によって慈悲の量を奪い合う関係にはない。",
+            "pt": "O que tento marcar é esta imagem: a compaixão de Amida não se reparte segundo o valor ou o número do lado humano, seja uma pessoa ou duas. Não é a partilha de um recurso finito — pouco porque é um, muito porque são dois. Visto do lado do infinito, um e dois não disputam entre si a quantidade da compaixão.",
+            "en": "What I am marking is this image: Amida's compassion is not portioned out according to human worth or headcount, whether one person or two. It is not a share of a finite resource — less because there is one, more because there are two. Seen from the side of the infinite, one and two are not in a relation of snatching compassion from each other.",
+            "es": "Lo que intento marcar es esta imagen: la compasión de Amida no se reparte según el valor o el número del lado humano, sea una persona o dos. No es el reparto de un recurso finito —poco porque es uno, mucho porque son dos. Visto desde el lado de lo infinito, uno y dos no se disputan entre sí la cantidad de la compasión."
+          },
+          {
+            "ja": "これは世界で初めての表現でも、完全に独自の理論でもない。私はこのような記号を使って考えている、という記録である。",
+            "pt": "Não é uma expressão inédita no mundo, nem uma teoria completamente original. É o registro de que eu penso com estes símbolos.",
+            "en": "This is not a first-in-the-world expression, nor a wholly original theory. It is a record that I think with these symbols.",
+            "es": "No es una expresión inédita en el mundo, ni una teoría completamente original. Es el registro de que yo pienso con estos símbolos."
+          }
+        ]
+      },
+      {
+        "id": "M-06",
+        "heading": {
+          "ja": "0 = ∞、0/∞ = 1について",
+          "pt": "Sobre 0 = ∞ e 0/∞ = 1",
+          "en": "On 0 = ∞ and 0/∞ = 1",
+          "es": "Sobre 0 = ∞ y 0/∞ = 1"
+        },
+        "paragraphs": [
+          {
+            "ja": "0 = ∞ や 0/∞ = 1 も、計算結果として提出するものではない。人間には直接捉えきれない無限や空の側と、具体的な一人の人間との関係を考えるための記号である。",
+            "pt": "0 = ∞ e 0/∞ = 1 tampouco são apresentados como resultado de um cálculo. São símbolos para pensar a relação entre o lado do infinito e do vazio — que a cognição humana não captura direto — e um ser humano concreto.",
+            "en": "0 = ∞ and 0/∞ = 1 are not offered as the result of a calculation either. They are symbols for thinking the relation between the side of the infinite and of emptiness — which human cognition does not grasp directly — and one concrete person.",
+            "es": "0 = ∞ y 0/∞ = 1 tampoco se presentan como resultado de un cálculo. Son símbolos para pensar la relación entre el lado de lo infinito y del vacío —que la cognición humana no captura de modo directo— y un ser humano concreto."
+          },
+          {
+            "ja": "私のイメージでは、∞があり、そこから限りなく小さな一点としての0が見え、その一点が一人の具体的な人間として現れる。空という、人間の認知では直接捉えにくいものと、目の前にいる一人との関係を、今の記号で考えるためのモデルである。",
+            "pt": "Na minha imagem há ∞; dele se vê um ponto minúsculo como 0; esse ponto aparece como uma pessoa concreta. É um modelo para pensar, com símbolos de agora, a relação entre o vazio — difícil de capturar direto na cognição humana — e a pessoa à frente.",
+            "en": "In my image there is ∞; from it a tiny point appears as 0; that point shows itself as one concrete person. It is a model for thinking, with present-day symbols, the relation between emptiness — hard for human cognition to grasp directly — and the person in front of us.",
+            "es": "En mi imagen hay ∞; de ahí se ve un punto minúsculo como 0; ese punto aparece como una persona concreta. Es un modelo para pensar, con símbolos de ahora, la relación entre el vacío —difícil de capturar de modo directo en la cognición humana— y la persona delante."
+          },
+          {
+            "ja": "仏教が 0/∞ = 1 と教えている、とは書かない。数学的に 0/∞ = 1 である、とも書かない。あくまで私自身の思考モデルである。",
+            "pt": "Não escrevo que o budismo ensina 0/∞ = 1. Tampouco escrevo que, em matemática, 0/∞ = 1. É só o meu modelo de pensamento.",
+            "en": "I do not write that Buddhism teaches 0/∞ = 1. I also do not write that, mathematically, 0/∞ = 1. It remains my own thinking model.",
+            "es": "No escribo que el budismo enseñe 0/∞ = 1. Tampoco escribo que, en matemática, 0/∞ = 1. Es solo mi modelo de pensamiento."
+          }
+        ]
+      },
+      {
+        "id": "M-07",
+        "heading": {
+          "ja": "数式を使う理由",
+          "pt": "Por que uso notação",
+          "en": "Why I use this notation",
+          "es": "Por qué uso esta notación"
+        },
+        "paragraphs": [
+          {
+            "ja": "数式を使うのは、数学で宗教を証明するためではない。漢文、仏教用語、四字熟語、経典の文脈を知らない人にも、「昔の人が言おうとしていたことは、こういうことなのか」と直感的に届く可能性があるからである。",
+            "pt": "Não uso notação para provar a religião com matemática. Uso porque, para quem não conhece chinês clássico, termos budistas, compostos de quatro caracteres ou o contexto dos sutras, pode chegar de modo mais direto: \"então era isto que as pessoas de outrora tentavam dizer\".",
+            "en": "I do not use notation to prove religion with mathematics. I use it because, for someone who does not know classical Chinese, Buddhist terms, four-character compounds, or the context of the sutras, it may arrive more directly: \"so this is what people then were trying to say.\"",
+            "es": "No uso notación para probar la religión con matemática. La uso porque, para quien no conoce chino clásico, términos budistas, compuestos de cuatro caracteres o el contexto de los sutras, puede llegar de modo más directo: \"entonces era esto lo que las personas de antaño intentaban decir\"."
+          },
+          {
+            "ja": "とりわけ技術や理系の背景を持つ人にとって、長い宗教的説明よりも、抽象的な関係を記号で示したほうが、何を言おうとしているのかを把握しやすい場合がある。",
+            "pt": "Sobretudo para quem tem formação técnica ou científica, às vezes um vínculo abstrato marcado por símbolos deixa ver o que se quer dizer mais depressa do que uma longa explicação religiosa.",
+            "en": "Especially for someone with a technical or scientific background, an abstract relation marked in symbols can sometimes make the point easier to grasp than a long religious explanation.",
+            "es": "Sobre todo para quien tiene formación técnica o científica, a veces un vínculo abstracto marcado con símbolos deja ver lo que se quiere decir más rápido que una larga explicación religiosa."
+          },
+          {
+            "ja": "ただし、理解できることと、納得することとは別である。私がまず目指しているのは、「何を言おうとしているのか」を理解してもらうことであって、それを正しいと信じることを求めることではない。",
+            "pt": "Entender e aceitar, porém, não são a mesma coisa. O que primeiro busco é que se entenda o que estou tentando dizer. Não peço que se creia nisso como verdade obrigatória.",
+            "en": "Understanding and assenting, however, are not the same. What I aim at first is that someone understand what I am trying to say. I do not ask that it be believed as a required truth.",
+            "es": "Entender y aceptar, sin embargo, no son lo mismo. Lo que primero busco es que se entienda lo que estoy intentando decir. No pido que se crea en ello como verdad obligatoria."
+          }
+        ]
+      },
+      {
+        "id": "M-08",
+        "heading": {
+          "ja": "南米での実践",
+          "pt": "A prática na América do Sul",
+          "en": "Practice in South America",
+          "es": "La práctica en Sudamérica"
+        },
+        "paragraphs": [
+          {
+            "ja": "この方法を特に必要としている理由の一つは、ブラジル、南米での開教の現場にある。日本では、仏教の言葉や寺院の文化について、ある程度共有された背景がある。南米では、その背景を共有しない人にも、仏教を伝える必要がある。",
+            "pt": "Uma razão pela qual preciso deste método está no trabalho de kaikyoshi no Brasil e na América do Sul. No Japão há, em alguma medida, um fundo compartilhado de palavras budistas e cultura de templo. Na América do Sul é preciso transmitir o budismo também a quem não partilha esse fundo.",
+            "en": "One reason I need this method is the kaikyoshi work in Brazil and South America. In Japan there is, to some degree, a shared background of Buddhist words and temple culture. In South America, Buddhism has to be spoken also to people who do not share that background.",
+            "es": "Una razón por la que necesito este método está en el trabajo de kaikyoshi en Brasil y en Sudamérica. En Japón hay, en alguna medida, un fondo compartido de palabras budistas y cultura de templo. En Sudamérica es preciso transmitir el budismo también a quien no comparte ese fondo."
+          },
+          {
+            "ja": "したがって、日本で通じる説明をポルトガル語に翻訳するだけでは足りない。その説明そのものを、文化的背景を持たない人にも理解できるところまで組み直す必要がある。私はそれを、自分なりの「翻訳」として行っている。",
+            "pt": "Por isso não basta traduzir para o português uma explicação que já funciona no Japão. É preciso rearmar a própria explicação até onde alguém sem aquele fundo cultural ainda possa entender. Faço isso como a minha forma de \"tradução\".",
+            "en": "So it is not enough to translate into Portuguese an explanation that already works in Japan. The explanation itself has to be rebuilt until someone without that cultural background can still follow it. I do that as my own kind of \"translation.\"",
+            "es": "Por eso no basta traducir al portugués una explicación que ya funciona en Japón. Hay que rearmar la explicación misma hasta donde alguien sin aquel fondo cultural aún pueda entender. Lo hago como mi forma de \"traducción\"."
+          }
+        ]
+      },
+      {
+        "id": "M-09",
+        "heading": {
+          "ja": "新しい教義を作ることが目的ではない",
+          "pt": "O fim não é criar uma doutrina nova",
+          "en": "The aim is not to create a new doctrine",
+          "es": "El fin no es crear una doctrina nueva"
+        },
+        "paragraphs": [
+          {
+            "ja": "新しい宗派を作ろうとしているわけではない。自分の思想こそ正しい浄土真宗である、と主張するものでもない。既存の言葉をそのまま繰り返すのではなく、親鸞が何を言おうとしたかを自分で問い直し、それを今の自分の時代と場所で、自分ならどう伝えるかを実践している。",
+            "pt": "Não estou tentando fundar uma escola nova. Tampouco afirmo que o meu pensamento seja a Jodo Shinshu correta. Em vez de repetir as palavras já dadas, torno a perguntar o que Shinran quis dizer, e pratico como eu o transmitiria, no meu tempo e no meu lugar.",
+            "en": "I am not trying to found a new school. Nor do I claim that my thought is the correct Jodo Shinshu. Instead of repeating the given wording, I ask again what Shinran meant to say, and I practice how I would tell it, in my time and place.",
+            "es": "No estoy intentando fundar una escuela nueva. Tampoco afirmo que mi pensamiento sea la Jodo Shinshu correcta. En vez de repetir las palabras ya dadas, vuelvo a preguntar qué quiso decir Shinran, y practico cómo yo lo transmitiría, en mi tiempo y en mi lugar."
+          },
+          {
+            "ja": "その結果として、既存の説明とは異なる言葉になることがある。しかし、それは必ずしも新しい教えを作ることを意味しない。公理モデル、用語辞典、主張台帳に書いたことも、この方法の産物である。新しいT番号を足すことではない。",
+            "pt": "Por isso as palavras às vezes diferem das explicações já conhecidas. Isso não significa, por si, criar um ensinamento novo. O que está no modelo de axiomas, no glossário e no registro de afirmações também nasce deste método. Não é acrescentar um T-número novo.",
+            "en": "The wording therefore sometimes differs from explanations already in circulation. That does not, by itself, mean creating a new teaching. What is written in the axiom model, the glossary, and the claim registry also comes from this method. It is not the adding of a new T-number.",
+            "es": "Por eso las palabras a veces difieren de las explicaciones ya conocidas. Eso no significa, por sí, crear una enseñanza nueva. Lo que está en el modelo de axiomas, en el glosario y en el registro de afirmaciones también nace de este método. No es añadir un número T nuevo."
+          },
+          {
+            "ja": "私は親鸞の言葉を現代風に飾り直したいのではない。その言葉の奥にあるものを、自分の時代と場所で、もう一度人間に届く言葉にしたい。だから私は、私ならこう言う、と語っている。",
+            "pt": "Não quero enfeitar as palavras de Shinran ao gosto moderno. Quero que o que está no fundo dessas palavras volte a ser palavra que chegue a um ser humano, no meu tempo e no meu lugar. Por isso falo: eu diria assim.",
+            "en": "I do not want to dress Shinran's words in a modern style. I want what lies in those words to become, again, speech that reaches a human being, in my time and place. That is why I speak: I would say it this way.",
+            "es": "No quiero adornar las palabras de Shinran al gusto moderno. Quiero que lo que está en el fondo de esas palabras vuelva a ser palabra que llegue a un ser humano, en mi tiempo y en mi lugar. Por eso hablo: yo lo diría así."
+          }
+        ]
+      }
+    ]
   }
 }
