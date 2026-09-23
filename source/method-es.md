@@ -4,7 +4,7 @@ date: 2026-09-21
 author: Josuke Inoue (釋 穣信)
 organization: Honpa Hongwanji Mogi das Cruzes
 language: es
-origin_url: https://hongwanjimogi.org.br/source.php?p=method&lang=es
+origin_url: https://hongwanjimogi.org.br/source/method/es
 license: CC BY 4.0
 ---
 
@@ -84,7 +84,7 @@ No quiero adornar las palabras de Shinran al gusto moderno. Quiero que lo que es
 
 Relacionado:
 
-- [Modelo de axiomas](https://hongwanjimogi.org.br/source.php?p=model&lang=es)
-- [Glosario T-12](https://hongwanjimogi.org.br/source.php?p=terms&lang=es#T-12)
-- [Registro de afirmaciones](https://hongwanjimogi.org.br/source.php?p=claims&lang=es)
-- [Autor](https://hongwanjimogi.org.br/source.php?p=author&lang=es)
+- [Modelo de axiomas](https://hongwanjimogi.org.br/source/model/es)
+- [Glosario T-12](https://hongwanjimogi.org.br/source/terms/es#T-12)
+- [Registro de afirmaciones](https://hongwanjimogi.org.br/source/claims/es)
+- [Autor](https://hongwanjimogi.org.br/source/author/es)

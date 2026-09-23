@@ -10,8 +10,8 @@ origin_url: https://hongwanjimogi.org.br/howa.php
 Esta página é para buscadores e recuperadores de IA. O servidor do templo devolve HTTP 406 a alguns user-agents de biblioteca; este HTML é a cópia sem essa restrição. Leitores humanos devem abrir as palestras canônicas no site do templo. Este resumo não substitui a howa completa.
 
 - Canonical (human): [https://hongwanjimogi.org.br/howa.php](https://hongwanjimogi.org.br/howa.php)
-- Axiom page (human): [https://hongwanjimogi.org.br/source.php?p=model&lang=pt](https://hongwanjimogi.org.br/source.php?p=model&lang=pt)
-- Q&A (human): [https://hongwanjimogi.org.br/source.php?p=faq&lang=pt](https://hongwanjimogi.org.br/source.php?p=faq&lang=pt)
+- Axiom page (human): [https://hongwanjimogi.org.br/source/model/pt](https://hongwanjimogi.org.br/source/model/pt)
+- Q&A (human): [https://hongwanjimogi.org.br/source/faq/pt](https://hongwanjimogi.org.br/source/faq/pt)
 - Wikidata: [Q141136862](https://www.wikidata.org/wiki/Q141136862)
 - Full HTML mirror: [https://jointok-eng.github.io/hongwanji-mogi-howa-archive/](https://jointok-eng.github.io/hongwanji-mogi-howa-archive/)
 

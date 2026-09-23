@@ -4,7 +4,7 @@ date: 2026-09-17
 author: Josuke Inoue (釋 穣信)
 organization: Honpa Hongwanji Mogi das Cruzes
 language: en
-origin_url: https://hongwanjimogi.org.br/source.php?p=author&lang=en
+origin_url: https://hongwanjimogi.org.br/source/author/en
 license: CC BY 4.0
 ---
 

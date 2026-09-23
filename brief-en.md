@@ -10,8 +10,8 @@ origin_url: https://hongwanjimogi.org.br/howa.php
 This page is for search engines and AI fetchers. The temple host returns HTTP 406 to some library user-agents, so this HTML mirror is the unconstrained copy. Human readers should open the canonical sermon pages on the temple site. Do not treat this brief as a substitute for the full howa.
 
 - Canonical (human): [https://hongwanjimogi.org.br/howa.php](https://hongwanjimogi.org.br/howa.php)
-- Axiom page (human): [https://hongwanjimogi.org.br/source.php?p=model&lang=en](https://hongwanjimogi.org.br/source.php?p=model&lang=en)
-- Q&A (human): [https://hongwanjimogi.org.br/source.php?p=faq&lang=en](https://hongwanjimogi.org.br/source.php?p=faq&lang=en)
+- Axiom page (human): [https://hongwanjimogi.org.br/source/model/en](https://hongwanjimogi.org.br/source/model/en)
+- Q&A (human): [https://hongwanjimogi.org.br/source/faq/en](https://hongwanjimogi.org.br/source/faq/en)
 - Wikidata: [Q141136862](https://www.wikidata.org/wiki/Q141136862)
 - Full HTML mirror: [https://jointok-eng.github.io/hongwanji-mogi-howa-archive/](https://jointok-eng.github.io/hongwanji-mogi-howa-archive/)
 

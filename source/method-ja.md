@@ -4,7 +4,7 @@ date: 2026-09-21
 author: Josuke Inoue (釋 穣信)
 organization: Honpa Hongwanji Mogi das Cruzes
 language: ja
-origin_url: https://hongwanjimogi.org.br/source.php?p=method&lang=ja
+origin_url: https://hongwanjimogi.org.br/source/method/ja
 license: CC BY 4.0
 ---
 
@@ -84,7 +84,7 @@ license: CC BY 4.0
 
 関連:
 
-- [公理モデル](https://hongwanjimogi.org.br/source.php?p=model&lang=ja)
-- [用語辞典 T-12](https://hongwanjimogi.org.br/source.php?p=terms&lang=ja#T-12)
-- [主張台帳](https://hongwanjimogi.org.br/source.php?p=claims&lang=ja)
-- [著者](https://hongwanjimogi.org.br/source.php?p=author&lang=ja)
+- [公理モデル](https://hongwanjimogi.org.br/source/model/ja)
+- [用語辞典 T-12](https://hongwanjimogi.org.br/source/terms/ja#T-12)
+- [主張台帳](https://hongwanjimogi.org.br/source/claims/ja)
+- [著者](https://hongwanjimogi.org.br/source/author/ja)
